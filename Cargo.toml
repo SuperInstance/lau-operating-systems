@@ -1,0 +1,11 @@
+[package]
+name = "lau-operating-systems"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-operating-systems"
+description = "OS fundamentals — scheduling, memory management, concurrency primitives, and disk scheduling"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
